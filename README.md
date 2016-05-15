@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/termcolor-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/termcolor-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/termcolor-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/termcolor-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/termcolor-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/termcolor-feedstock/branch/master)
