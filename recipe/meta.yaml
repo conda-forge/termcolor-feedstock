@@ -26,10 +26,11 @@ test:
 
 about:
   home: http://pypi.python.org/pypi/termcolor
-  license: MIT License
+  license: MIT
   license_file: COPYING.txt
   summary: 'ANSII Color formatting for output in terminal.'
 
 extra:
   recipe-maintainers:
     - jakirkham
+    - ocefpaf
