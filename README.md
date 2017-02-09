@@ -11,6 +11,18 @@ Summary: ANSII Color formatting for output in terminal.
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/termcolor-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/termcolor-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/termcolor-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/termcolor-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/termcolor-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/termcolor-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/termcolor/badges/version.svg)](https://anaconda.org/conda-forge/termcolor)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/termcolor/badges/downloads.svg)](https://anaconda.org/conda-forge/termcolor)
+
 Installing termcolor
 ====================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `termcolor` available on your plat
 ```
 conda search termcolor --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/termcolor-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/termcolor-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/termcolor-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/termcolor-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/termcolor-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/termcolor-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/termcolor/badges/version.svg)](https://anaconda.org/conda-forge/termcolor)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/termcolor/badges/downloads.svg)](https://anaconda.org/conda-forge/termcolor)
 
 
 Updating termcolor-feedstock
