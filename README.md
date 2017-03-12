@@ -3,7 +3,7 @@ About termcolor
 
 Home: http://pypi.python.org/pypi/termcolor
 
-Package license: MIT License
+Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
