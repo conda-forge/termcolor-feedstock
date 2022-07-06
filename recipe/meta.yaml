@@ -5,22 +5,21 @@ package:
   version: {{ version }}
 
 source:
-  fn: termcolor-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/t/termcolor/termcolor-{{ version }}.tar.gz
   md5: 043e89644f8909d462fbbfa511c768df
 
 build:
   noarch: python
-  number: 2
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 3
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
 
   run:
-    - python
+    - python >=3.6
 
 test:
   imports:
@@ -36,3 +35,4 @@ extra:
   recipe-maintainers:
     - jakirkham
     - ocefpaf
+    - k-dominik
