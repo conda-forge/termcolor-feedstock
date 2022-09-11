@@ -1,4 +1,4 @@
-{% set version = "1.1.0" %}
+{% set version = "2.0.0" %}
 
 package:
   name: termcolor
@@ -6,11 +6,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/t/termcolor/termcolor-{{ version }}.tar.gz
-  md5: 043e89644f8909d462fbbfa511c768df
+  md5: d64df8a9578e3eed8350819b3e9625da
 
 build:
   noarch: python
-  number: 3
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -29,7 +29,7 @@ about:
   home: http://pypi.python.org/pypi/termcolor
   license: MIT
   license_file: COPYING.txt
-  summary: 'ANSII Color formatting for output in terminal.'
+  summary: ANSII Color formatting for output in terminal.
 
 extra:
   recipe-maintainers:
