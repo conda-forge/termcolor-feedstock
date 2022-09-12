@@ -28,10 +28,10 @@ test:
     - termcolor
 
 about:
-  home: http://pypi.python.org/pypi/termcolor
+  home: https://github.com/termcolor/termcolor
   license: MIT
   license_file: COPYING.txt
-  summary: ANSII Color formatting for output in terminal.
+  summary: ANSI color formatting for output in terminal
 
 extra:
   recipe-maintainers:
