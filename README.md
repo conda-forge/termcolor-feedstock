@@ -1,13 +1,13 @@
 About termcolor
 ===============
 
-Home: http://pypi.python.org/pypi/termcolor
+Home: https://github.com/termcolor/termcolor
 
 Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/termcolor-feedstock/blob/main/LICENSE.txt)
 
-Summary: ANSII Color formatting for output in terminal.
+Summary: ANSI color formatting for output in terminal
 
 Current build status
 ====================
