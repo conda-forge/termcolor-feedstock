@@ -1,4 +1,4 @@
-{% set version = "2.0.1" %}
+{% set version = "2.1.0" %}
 
 package:
   name: termcolor
@@ -6,11 +6,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/t/termcolor/termcolor-{{ version }}.tar.gz
-  md5: a15736cb3634a61b077681777d1d6fdf
+  md5: 04e4981838535169d19d26a14a76af17
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
