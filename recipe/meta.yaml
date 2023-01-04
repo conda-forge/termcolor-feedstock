@@ -1,31 +1,35 @@
+{% set name = "termcolor" %}
 {% set version = "2.2.0" %}
 
 package:
-  name: termcolor
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/t/termcolor/termcolor-{{ version }}.tar.gz
-  md5: ba0af4ee713cd0030c2d436091af4241
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/termcolor-{{ version }}.tar.gz
+  sha256: dfc8ac3f350788f23b2947b3e6cfa5a53b630b612e6cd8965a015a776020b99a
 
 build:
   noarch: python
-  number: 0
   script: {{ PYTHON }} -m pip install . -vv
+  number: 0
 
 requirements:
   host:
-    - pip
     - python >=3.7
+    - pip
     - hatch-vcs
     - hatchling
-
   run:
     - python >=3.7
 
 test:
   imports:
     - termcolor
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/termcolor/termcolor
