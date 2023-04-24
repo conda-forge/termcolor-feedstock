@@ -1,11 +1,11 @@
-About termcolor
-===============
+About termcolor-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/termcolor-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/termcolor/termcolor
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/termcolor-feedstock/blob/main/LICENSE.txt)
 
 Summary: ANSI color formatting for output in terminal
 
