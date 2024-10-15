@@ -147,6 +147,3 @@ Feedstock Maintainers
 * [@k-dominik](https://github.com/k-dominik/)
 * [@ocefpaf](https://github.com/ocefpaf/)
 
-
-<!-- dummy commit to enable rerendering -->
-
