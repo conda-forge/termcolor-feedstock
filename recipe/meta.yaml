@@ -1,5 +1,5 @@
 {% set name = "termcolor" %}
-{% set version = "3.0.1" %}
+{% set version = "3.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/termcolor-{{ version }}.tar.gz
-  sha256: a6abd5c6e1284cea2934443ba806e70e5ec8fd2449021be55c280f8a3731b611
+  sha256: 6a6dd7fbee581909eeec6a756cff1d7f7c376063b14e4a298dc4980309e55970
 
 build:
   noarch: python
